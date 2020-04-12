@@ -2,17 +2,14 @@
 
 Code by Liam Whittle
 
-Any sensible person intent on doing non-trivial machine learning ought to use a
-high level language such as python- we really can't do without the power of 
-graphics processors, and should try at all costs to avoid re-inventing the wheel. 
-
 I wrote this code a few years prior to uploading to Github. 
 It was not initially written with a practical purpose in mind, it was 
 more a curious exploration of both the nitty gritty of simple feed-forward 
 neural nets, and the c programming language. I wrote it at a time in my 
 education where I was learning both of these concepts and wanted to make 
 something real. In some ways, the low level, raw nature of C is well suited to 
-illustrating the exact maths of neural nets and back propogation.
+illustrating the exact maths of neural nets and back propogation, however this wouldn't be well suited 
+to non-trivial machine learning.
 
 C Program containing functions designed for training feedforward neural networks.
 Features:
